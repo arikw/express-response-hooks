@@ -11,7 +11,7 @@ npm install express-response-hooks
 # Usage
 
 ```js
-const responseHooks = require('express-response-hooks.js');
+const responseHooks = require('express-response-hooks');
 
 // activate the hooks
 app.use(responseHooks());
@@ -29,7 +29,7 @@ app.use(function (req, res, next) {
 
 # API
 
-### require('express-response-hooks.js')([options])
+### require('express-response-hooks')([options])
 Creates a middleware that adds hooks to the response object
 
 #### Options object
