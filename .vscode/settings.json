@@ -1,0 +1,51 @@
+{
+    "triggerTaskOnSave.showNotifications": false,
+
+    "triggerTaskOnSave.on": false,
+
+    "terminal.integrated.scrollback": 2000,
+    "terminal.integrated.cwd": "${workspaceFolder}",
+
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/*.bak": true,
+      "**/*.txt": true,
+      "**/vendor/": true,
+    },
+
+    "eslint.format.enable": true,
+    "eslint.debug": false,
+    "eslint.workingDirectories": [{ "mode": "location" }],
+
+    "javascript.format.enable": false,
+    "json.format.enable": false,
+
+    "editor.formatOnSaveMode": "file",
+
+    "[javascript]": {
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+      "editor.detectIndentation": false,
+      "editor.tabSize": 2,
+      "editor.formatOnType": true,
+      "editor.formatOnSaveMode": "modifications",
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+    },
+
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "search.useIgnoreFiles": false,
+
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/*/**": true
+    },
+    "eslint.enable": true
+  }

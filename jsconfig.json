@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2021",
+    "baseUrl": "."
+  },
+  "exclude": ["node_modules"]
+}

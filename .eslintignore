@@ -1,0 +1,7 @@
+vendor
+static
+node_modules
+.idea
+.vscode
+dist
+.nuxt

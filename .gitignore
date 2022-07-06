@@ -1,0 +1,9 @@
+node_modules
+/*.zip
+
+.env
+.env.test
+!**/.emptydir
+.nyc_output
+
+.DS_Store
