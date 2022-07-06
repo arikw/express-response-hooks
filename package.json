@@ -1,6 +1,6 @@
 {
   "name": "express-response-hooks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Arik W",
   "license": "MIT",
   "description": "Extends Express.js with response hooks",
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/arikw/express-response-hooks.git"
   },
   "keywords": [
-    "Promise"
+    "express", "expressjs", "response", "hooks"
   ],
   "engines": {
     "node": ">= 6.4"

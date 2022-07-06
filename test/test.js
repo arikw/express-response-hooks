@@ -3,7 +3,7 @@ const
   expect = chai.expect,
   responseHooks = require('../src/index.js');
 
-describe('hooks activation middleware setup', () => {
+describe('hooks middleware initialization', () => {
 
   const
     EventEmitter = require('events'),

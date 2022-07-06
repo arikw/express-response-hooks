@@ -13,7 +13,7 @@ npm install express-response-hooks
 ```js
 const responseHooks = require('express-response-hooks');
 
-// activate the hooks
+// response hooks initialization
 app.use(responseHooks());
 
 // register a middleware that adds a "Cache-Control" header whenever the status code changes
