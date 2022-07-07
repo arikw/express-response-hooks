@@ -1,6 +1,6 @@
 const EventEmitter = require('events');
 
-module.exports = function extendResponseObject(options = {}) {
+module.exports = function constructor(options = {}) {
 
   const { plugName = 'hooks' } = options;
 

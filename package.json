@@ -1,29 +1,41 @@
 {
   "name": "express-response-hooks",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Arik W",
   "license": "MIT",
   "description": "Extends Express.js with response hooks",
-  "main": "src/index.js",
   "scripts": {
     "test": "mocha"
   },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  },
+  "engines": {
+    "node": ">= 6.4"
+  },
+  "main": "src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.mjs",
+      "require": "./src/index.js"
+    }
+  },
+  "files": [
+    "/src"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arikw/express-response-hooks.git"
-  },
-  "keywords": [
-    "express", "expressjs", "response", "hooks"
-  ],
-  "engines": {
-    "node": ">= 6.4"
   },
   "bugs": {
     "url": "https://github.com/arikw/express-response-hooks/issues"
   },
   "homepage": "https://github.com/arikw/express-response-hooks#readme",
-  "devDependencies": {
-    "chai": "^4.3.6",
-    "mocha": "^10.0.0"
-  }
+  "keywords": [
+    "express",
+    "expressjs",
+    "response",
+    "hooks"
+  ]
 }
